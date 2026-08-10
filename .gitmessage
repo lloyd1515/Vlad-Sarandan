@@ -1,0 +1,30 @@
+# <type>(<optional scope>): <subject line> (max 50 characters)
+# |<---- Line length limit strictly 50 characters ---->|
+
+# Optional body: Explain WHAT changed and WHY (not HOW). Wrap at 72 chars.
+# |<---- Line length limit strictly 72 characters --------------------->|
+
+# Optional footer(s): Issue references, breaking changes, co-authors.
+# Fixes #123
+# BREAKING CHANGE: <description of breaking change>
+# Co-authored-by: Name <email@example.com>
+
+# ----------------------------------------------------------------------
+# Conventional Commit Types:
+#   feat     : A new feature for the user
+#   fix      : A bug fix for the user
+#   docs     : Documentation-only changes
+#   style    : Code style/formatting (whitespace, missing semi-colons, etc.)
+#   refactor : Code restructuring without changing external behavior
+#   perf     : Code changes that improve performance
+#   test     : Adding or updating tests
+#   build    : Changes affecting build system or external dependencies
+#   ci       : Changes to CI configuration files and scripts
+#   chore    : Maintenance tasks, tooling updates, or auxiliary scripts
+# ----------------------------------------------------------------------
+# Rules:
+# 1. Use the imperative, present tense: "add" not "added", "fix" not "fixed".
+# 2. Do not capitalize the first letter of the subject line if using Conventional Commits.
+# 3. Do not end the subject line with a period.
+# 4. Separate subject from body with a blank line.
+# 5. Wrap lines at 72 characters in the body.
